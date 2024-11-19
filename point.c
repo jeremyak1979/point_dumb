@@ -2,11 +2,6 @@
 #include <stdlib.h>
 #include "point.h"
 
-//typedef struct Point {
-//	double x;
-//	double y;
-//} point;
-
 void *mem_guard(void *p){
 	if(p == NULL){
 		fprintf(stderr, "out of memory\n");
